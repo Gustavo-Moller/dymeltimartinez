@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DYMELTI MARTINEZ</title>
+    <link rel="stylesheet" href="public/styles/style.css" />
+  </head>
+  <body>
+    <!-- Letreiro animado -->
+    <div class="marquee-container">
+      <div class="marquee">
+        <span
+          >DYMELTI MARTINEZ • DYMELTI MARTINEZ • DYMELTI MARTINEZ • DYMELTI
+          MARTINEZ • DYMELTI MARTINEZ • DYMELTI MARTINEZ • DYMELTI MARTINEZ •
+          DYMELTI MARTINEZ • DYMELTI MARTINEZ • DYMELTI MARTINEZ • DYMELTI
+          MARTINEZ • DYMELTI MARTINEZ • DYMELTI MARTINEZ • DYMELTI MARTINEZ •
+          DYMELTI MARTINEZ • DYMELTI MARTINEZ •
+        </span>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="public/logo.webp" alt="DYMELTI MARTINEZ" />
+          <h1>DYMELTI MARTINEZ</h1>
+        </div>
+        <div class="header-actions">
+          <button class="cart-btn" onclick="toggleCart()">
+            <span class="cart-icon">🛒</span>
+            <span class="cart-count" id="cartCount">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+      <img src="public/banner.jpg" alt="Banner DYMELTI MARTINEZ" />
+    </section>
+
+    <!-- Produtos -->
+    <main class="main-content">
+      <div class="container">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <div class="products-grid" id="productsGrid">
+          <!-- Produtos serão carregados aqui via JavaScript -->
+        </div>
+      </div>
+    </main>
+
+    <!-- Carrinho lateral -->
+    <div class="cart-sidebar" id="cartSidebar">
+      <div class="cart-header">
+        <h3>Seu Carrinho</h3>
+        <button class="close-cart" onclick="toggleCart()">×</button>
+      </div>
+      <div class="cart-items" id="cartItems">
+        <p class="empty-cart">Seu carrinho está vazio</p>
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <strong>Total: R$ <span id="cartTotal">0,00</span></strong>
+        </div>
+        <button
+          class="checkout-btn"
+          onclick="checkout()"
+          id="checkoutBtn"
+          disabled
+        >
+          Finalizar Pedido via WhatsApp
+        </button>
+      </div>
+    </div>
+
+    <!-- Modal do produto -->
+    <div class="modal" id="productModal">
+      <div class="modal-content">
+        <button class="close-modal" onclick="closeProductModal()">×</button>
+        <div class="modal-body" id="modalBody">
+          <!-- detalhes injetados pelo JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>DYMELTI MARTINEZ</h3>
+            <p>Moda exclusiva e estilo único</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contato</h3>
+            <p>WhatsApp: +55 62 99880-6950</p>
+            <p>Instagram: @dymelti_martinez</p>
+          </div>
+          <div class="footer-section">
+            <h3>Redes Sociais</h3>
+            <div class="social-links">
+              <a
+                href="https://wa.me/5562998806950"
+                target="_blank"
+                class="whatsapp-btn"
+              >
+                📱 WhatsApp
+              </a>
+              <a
+                href="https://instagram.com/dymelti_martinez"
+                target="_blank"
+                class="instagram-btn"
+              >
+                📷 Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script principal -->
+    <script src="scripts/cart.js" defer></script>
+  </body>
+</html>

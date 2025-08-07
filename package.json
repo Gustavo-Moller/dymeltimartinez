@@ -1,0 +1,36 @@
+{
+  "name": "dymelti-martinez-loja",
+  "version": "1.0.0",
+  "description": "Loja virtual moderna para DYMELTI MARTINEZ",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "dev": "live-server --port=3000 --watch=."
+  },
+  "keywords": [
+    "loja",
+    "ecommerce",
+    "moda",
+    "dymelti-martinez",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "DYMELTI MARTINEZ",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "json-server": "^1.0.0-beta.3",
+    "live-server": "^1.2.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  },
+  "homepage": "https://github.com/seuusername/dymelti-martinez-loja",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seuusername/dymelti-martinez-loja.git"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11"
+  }
+}

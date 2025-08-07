@@ -1,0 +1,44 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "name": "Juliet Carbon Tanzanite",
+      "description": "Vestido longo em tecido premium com detalhes exclusivos",
+      "price": 299.9,
+      "images": ["./public/ima1.webp"],
+      "sizes": ["P", "M", "G", "GG"],
+      "colors": ["Preto", "Azul", "Roxo"],
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Juliet Carbon Fire",
+      "description": "Blusa confortável perfeita para o dia a dia",
+      "price": 159.9,
+      "images": ["./public/ima2.webp"],
+      "sizes": ["P", "M", "G"],
+      "colors": ["Branco", "Preto", "Azul"],
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Juliet X-Metal Violet",
+      "description": "Conjunto duas peças com design contemporâneo",
+      "price": 399.9,
+      "images": ["./public/ima3.webp"],
+      "sizes": ["P", "M", "G"],
+      "colors": ["Preto", "Roxo", "Azul"],
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Juliet X-Metal Violet",
+      "description": "Conjunto duas peças com design contemporâneo",
+      "price": 399.9,
+      "images": ["./public/ima4.webp"],
+      "sizes": ["P", "M", "G"],
+      "colors": ["Preto", "Roxo", "Azul"],
+      "available": false
+    }
+  ]
+}
