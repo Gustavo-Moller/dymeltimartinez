@@ -80,13 +80,6 @@ const products = [
 ];
 ```
 
-### Alterar Contatos
-
-No arquivo `scripts/cart.js`, altere:
-
-- **WhatsApp:** linha com `5562998806950`
-- **Instagram:** no `index.html`, altere `@dymelti_martinez`
-
 ### Adicionar Imagens
 
 1. Coloque sua logo em: `public/logo.png`
